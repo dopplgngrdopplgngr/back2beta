@@ -5,3 +5,5 @@ public class B2B {
 // this code does nothing except set the version string	
 	public static String version = "Minecraft Beta 1.8.2_01";
 }
+
+// Contributers so far: Firstinte
