@@ -1,3 +1,4 @@
+// b2b
 package net.minecraft.src;
 
 public class B2B {
