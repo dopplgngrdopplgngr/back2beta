@@ -33,6 +33,18 @@ public void addRecipes(CraftingManager craftingmanager) {
     craftingmanager.addShapelessRecipe(new ItemStack(Item.dyePowder, 1, 2), new Object[] {
     		new ItemStack(Block.leaves)
     });
+    craftingmanager.addRecipe(new ItemStack(Block.cobblestone, 1), new Object[] {
+            "C", Character.valueOf('C'), B2BBlocks.cobblestoneSmooth
+    });
+    craftingmanager.addRecipe(new ItemStack(Block.planks, 1, 0), new Object[] {
+       	    "#", Character.valueOf('#'), new ItemStack(B2BBlocks.decPlanks, 1, 0)
+    });
+    craftingmanager.addRecipe(new ItemStack(Block.planks, 1, 1), new Object[] {
+        	"#", Character.valueOf('#'), new ItemStack(B2BBlocks.decPlanks, 1, 1)
+    });
+    craftingmanager.addRecipe(new ItemStack(Block.planks, 1, 2), new Object[] {
+            "#", Character.valueOf('#'), new ItemStack(B2BBlocks.decPlanks, 1, 2)
+    });
 }
 
 public void addSmeltingRecipes(FurnaceRecipes furnacerecipes)
