@@ -13,7 +13,8 @@ public enum EnumToolMaterial
     EMERALD("EMERALD", 3, 3, 1561, 8F, 3),
     GOLD("GOLD", 4, 0, 32, 2F, 0),
 	BUTTERKNIFE("BUTTERKNIFE", 5, 3, 9000, 9000F, 9000),
-	OBSIDIAN("OBSIDIAN", 6, 3, 59, 11F, 6);
+	OBSIDIAN("OBSIDIAN", 6, 3, 59, 11F, 6),
+	ONYX("ONYX", 7, 3, 550, 7F, 2);
 /*
     public static EnumToolMaterial[] values()
     {
@@ -76,7 +77,7 @@ public enum EnumToolMaterial
         GOLD = new EnumToolMaterial("GOLD", 4, 0, 32, 12F, 0);
 */
         field_21209_j = (new EnumToolMaterial[] {
-            WOOD, STONE, IRON, EMERALD, GOLD, BUTTERKNIFE, OBSIDIAN
+            WOOD, STONE, IRON, EMERALD, GOLD, BUTTERKNIFE, OBSIDIAN, ONYX
         });
     }
 }
