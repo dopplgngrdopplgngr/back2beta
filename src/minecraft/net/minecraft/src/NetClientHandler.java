@@ -485,7 +485,7 @@ public class NetClientHandler extends NetHandler
     {
         if(packet2handshake.username.equals("-"))
         {
-            addToSendQueue(new Packet1Login(mc.session.username, 64));
+            addToSendQueue(new Packet1Login(mc.session.username, 65));
         } else
         {
             try

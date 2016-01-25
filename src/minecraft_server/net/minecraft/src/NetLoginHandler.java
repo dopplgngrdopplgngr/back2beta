@@ -79,9 +79,9 @@ public class NetLoginHandler extends NetHandler
     public void handleLogin(Packet1Login packet1login)
     {
         username = packet1login.username;
-        if(packet1login.protocolVersion != 64)
+        if(packet1login.protocolVersion != 65)
         {
-            if(packet1login.protocolVersion > 64)
+            if(packet1login.protocolVersion > 65)
             {
                 kickUser("Outdated server!");
             } else
