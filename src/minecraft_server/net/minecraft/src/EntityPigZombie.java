@@ -117,32 +117,17 @@ public class EntityPigZombie extends EntityZombie
         {
             return Item.porkCooked.shiftedIndex;
         } else
-        if(rand.nextInt(3) == 0)
-        {
-          return getHeldItem().itemID;
-        } else
         {
             return B2BItems.porkRotten.shiftedIndex;
         }
-    }
-    
-    public ItemStack getHeldItem()
-    {
-    	if(rand.nextInt(5) == 0)
-    	{
-        return pickaxeHeldItem;
-    	} else
-    	return defaultHeldItem;
     }
 
     private int angerLevel;
     private int randomSoundDelay;
     private static final ItemStack defaultHeldItem;
-    private static final ItemStack pickaxeHeldItem;
 
     static 
     {
         defaultHeldItem = new ItemStack(Item.swordGold, 1);
-        pickaxeHeldItem = new ItemStack(Item.pickaxeGold, 1);
     }
 }

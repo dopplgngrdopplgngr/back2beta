@@ -36,11 +36,7 @@ public class Damage {
       } else
       if(entity instanceof EntityPigZombie)
       {
-    	if(((EntityPigZombie)entity).getHeldItem() == new ItemStack(Item.swordGold, 1))
-    	{
         mobComplex = " was stabbed to death by an enraged Zombie Pigman";
-    	} else
-    	mobComplex = " was mined to death by an enraged Zombie Pigman";
       } else
       if(entity instanceof EntityZombie)
       {
