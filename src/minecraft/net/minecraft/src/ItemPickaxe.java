@@ -38,7 +38,7 @@ public class ItemPickaxe extends ItemTool
         {
             return toolMaterial.getHarvestLevel() >= 1;
         }
-        if(/*block == Block.blockIron ||*/ block == B2BBlocks.oreCopper)
+        if(block == B2BBlocks.blockCopper || block == B2BBlocks.oreCopper)
         {
             return toolMaterial.getHarvestLevel() >= 1;
         }
@@ -65,7 +65,7 @@ public class ItemPickaxe extends ItemTool
                 Block.cobblestone, Block.stairDouble, Block.stairSingle, Block.stone, Block.sandStone, Block.cobblestoneMossy, Block.oreIron, Block.blockIron, Block.oreCoal, Block.blockGold, 
                 Block.oreGold, Block.oreDiamond, Block.blockDiamond, Block.ice, Block.netherrack, Block.oreLapis, Block.blockLapis, B2BBlocks.cobblestoneSmooth, B2BBlocks.stoneBricks, Block.furnaceOff, 
                 Block.furnaceOn, Block.doorSteel, B2BBlocks.decStone, Block.obsidian, Block.oreRedstone, Block.oreRedstoneGlowing, B2BBlocks.oreOnyx, B2BBlocks.blockOnyx, B2BBlocks.hellGold, Block.stairCompactCobblestone,
-                B2BBlocks.oreCopper
+                B2BBlocks.oreCopper, B2BBlocks.blockCopper
         });
     }
 }
