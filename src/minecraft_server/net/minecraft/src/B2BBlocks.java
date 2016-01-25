@@ -61,9 +61,6 @@ public class B2BBlocks {
     public static final Block blockOnyx = new BlockOreStorage(110, 125).setHardness(3F).setResistance(10F).setStepSound(Block.soundStoneFootstep).setBlockName("blockOnyx");
     public static final Block hellGold = (new BlockHellOre(111, 141)).setHardness(3F).setResistance(5F).setStepSound(Block.soundStoneFootstep).setBlockName("oreGold");
     public static final Block oreCopper = new BlockOre(112, 143).setHardness(3F).setResistance(5F).setStepSound(Block.soundStoneFootstep).setBlockName("oreCopper");
-<<<<<<< HEAD
     public static final Block blockCopper = new BlockOreStorage(113, 173).setHardness(5F).setResistance(10F).setStepSound(Block.soundMetalFootstep).setBlockName("blockCopper");
-=======
-    public static final Block blockCopper = new BlockOreStorage(113, 144).setHardness(3F).setResistance(10F).setStepSound(Block.soundMetalFootstep).setBlockName("blockCopper");
->>>>>>> origin/master
 }
+
