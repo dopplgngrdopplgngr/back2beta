@@ -48,11 +48,11 @@ public class B2BItems {
     public static Item onyxStone = (new Item(216)).setIconCoord(8, 15).setItemName("onyx");
     public static Item chicken = (new ItemFood(217, 6, false, false, null)).setIconCoord(7 , 15).setItemName("chicken");
     public static Item fireball = (new ItemFireball(218).setIconCoord(14, 0).setItemName("fireball"));
-  public static Item swordOnyx = (new ItemSword(219, EnumToolMaterial.ONYX)).setIconCoord(0, 14).setItemName("swordOnyx");
-  public static Item shovelOnyx = (new ItemSpade(220, EnumToolMaterial.ONYX)).setIconCoord(1, 14).setItemName("shovelOnyx");
-  public static Item pickaxeOnyx = (new ItemPickaxe(221, EnumToolMaterial.ONYX)).setIconCoord(2, 14).setItemName("pickaxeOnyx");
-  public static Item axeOnyx = (new ItemAxe(222, EnumToolMaterial.ONYX)).setIconCoord(3, 14).setItemName("hatchetOnyx");
-  public static Item hoeOnyx = (new ItemHoe(223, EnumToolMaterial.ONYX)).setIconCoord(4, 14).setItemName("hoeOnyx");
+  public static Item swordOnyx = (new ItemSword(219, EnumToolMaterial.ONYX)).setIconCoord(0, 13).setItemName("swordOnyx");
+  public static Item shovelOnyx = (new ItemSpade(220, EnumToolMaterial.ONYX)).setIconCoord(1, 13).setItemName("shovelOnyx");
+  public static Item pickaxeOnyx = (new ItemPickaxe(221, EnumToolMaterial.ONYX)).setIconCoord(2, 13).setItemName("pickaxeOnyx");
+  public static Item axeOnyx = (new ItemAxe(222, EnumToolMaterial.ONYX)).setIconCoord(3, 13).setItemName("hatchetOnyx");
+  public static Item hoeOnyx = (new ItemHoe(223, EnumToolMaterial.ONYX)).setIconCoord(4, 13).setItemName("hoeOnyx");
 //  Reserved for 1.8.3
 }
 
