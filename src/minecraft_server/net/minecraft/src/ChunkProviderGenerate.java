@@ -453,14 +453,36 @@ public class ChunkProviderGenerate
         }
         
         // b2b ores start here
-        for(int y4 = 0; y4 < 2; y4++)
+        /*
+         * for(int rarity = 0; rarity < 2; rarity++) controls how rare
         {
-            int y7 = k + rand.nextInt(16);
-            int y10 = rand.nextInt(16);
-            int y13 = l + rand.nextInt(16);
-            (new WorldGenMinable(B2BBlocks.oreOnyx.blockID, 10)).generate(worldObj, rand, y7, y10, y13);
+            int xCoord = k + rand.nextInt(16); how far you want it to spread out on x, keep at 16
+            int yCoord = rand.nextInt(16); the height you want it to generate at
+            int zCoord = l + rand.nextInt(16); how far you want it to spread out on z, keep at 16
+            worldObj-World
+            rand-Random
+            rarity-int
+            (new WorldGenMinable(B2BBlocks.oreName.blockID, amountPerOreVein)).generate(worldObj, rand, xCoord, yCoord, zCoord);
         }
-
+         */
+        
+        for(int rare = 0; rare < 2; rare++)
+        {
+            int xRand = k + rand.nextInt(16);
+            int yRand = rand.nextInt(16);
+            int zRand = l + rand.nextInt(16);
+            (new WorldGenMinable(B2BBlocks.oreOnyx.blockID, 10)).generate(worldObj, rand, xRand, yRand, zRand);
+        }
+        
+/*      for(int rare = 0; rare < 20; rare++)
+        {
+            int xRand = k + rand.nextInt(16);
+            int yRand = rand.nextInt(16);
+            int zRand = l + rand.nextInt(16);
+            (new WorldGenMinable(B2BBlocks.oreCopper.blockID, 4)).generate(worldObj, rand, xRand, yRand, zRand);
+        }
+        */
+        
         d = 0.5D;
         int k4 = (int)((mobSpawnerNoise.func_647_a((double)k * d, (double)l * d) / 8D + rand.nextDouble() * 4D + 4D) / 3D);
         int l7 = 0;
