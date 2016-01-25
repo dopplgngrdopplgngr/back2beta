@@ -496,7 +496,7 @@ public class NetClientHandler extends NetHandler
                 bufferedreader.close();
                 if(s.equalsIgnoreCase("ok"))
                 {
-                    addToSendQueue(new Packet1Login(mc.session.username, 64));
+                    addToSendQueue(new Packet1Login(mc.session.username, 65));
                 } else
                 {
                     netManager.networkShutdown("disconnect.loginFailedInfo", new Object[] {
