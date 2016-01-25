@@ -348,6 +348,8 @@ tile.decWoodBirch.name=Polished Birch Planks
 tile.piePumpkin.name=Pumpkin Pie
 tile.oreOnyx.name=Onyx Ore
 tile.blockOnyx.name=Onyx Stone
+tile.oreCopper.name=Copper Ore
+tile.blockCopper.name=Copper Block
 
 item.shovelIron.name=Iron Shovel
 item.shovelIron.desc=
