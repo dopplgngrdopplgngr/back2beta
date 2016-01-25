@@ -6,4 +6,4 @@ public class B2B {
 	public static String version = "Minecraft Beta 1.8.2_01";
 }
 
-// Contributers so far: Firstinte
+// Contributers so far: Firstinte, ElectronicaFlame
