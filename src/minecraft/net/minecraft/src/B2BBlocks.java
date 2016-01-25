@@ -39,6 +39,12 @@ public class B2BBlocks {
        craftingmanager.addShapelessRecipe(new ItemStack(B2BItems.onyxStone, 4), new Object[] {
     		blockOnyx,
        });
+       craftingmanager.addRecipe(new ItemStack(blockCopper), new Object[] {
+    		"AAA", "AAA", "AAA" , Character.valueOf('A'), new ItemStack(B2BItems.ingotCopper)
+       });
+       craftingmanager.addShapelessRecipe(new ItemStack(B2BItems.ingotCopper, 9), new Object[] {
+    		blockCopper,
+       });
 	}
     /*
      * public static final Block blockName = new BlockBlockName(0, 0).setHardness(1.0F).setResistance(5F).setStepSound(Block.soundStoneFootstep).setBlockName("stringtobetranslated");
@@ -61,4 +67,5 @@ public class B2BBlocks {
     public static final Block blockOnyx = new BlockOreStorage(110, 125).setHardness(3F).setResistance(10F).setStepSound(Block.soundStoneFootstep).setBlockName("blockOnyx");
     public static final Block hellGold = (new BlockHellOre(111, 141)).setHardness(3F).setResistance(5F).setStepSound(Block.soundStoneFootstep).setBlockName("oreGold");
     public static final Block oreCopper = new BlockOre(112, 143).setHardness(3F).setResistance(5F).setStepSound(Block.soundStoneFootstep).setBlockName("oreCopper");
+    public static final Block blockCopper = new BlockOreStorage(113, 144).setHardness(3F).setResistance(10F).setStepSound(Block.soundMetalFootstep).setBlockName("blockCopper");
 }
