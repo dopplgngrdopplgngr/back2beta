@@ -59,5 +59,6 @@ public class B2BBlocks {
     public static final Block piePumpkin = new BlockCake(108, 153).setHardness(0.5F).setStepSound(Block.soundClothFootstep).setBlockName("piePumpkin").disableStats();
     public static final Block oreOnyx = new BlockOre(109, 126).setHardness(3F).setResistance(5F).setStepSound(Block.soundStoneFootstep).setBlockName("oreOnyx");
     public static final Block blockOnyx = new BlockOreStorage(110, 125).setHardness(3F).setResistance(10F).setStepSound(Block.soundStoneFootstep).setBlockName("blockOnyx");
-    public static final Block hellGold = (new BlockHellOre(111, 141)).setHardness(3F).setResistance(5F).setStepSound(Block.soundStoneFootstep).setBlockName("oreGold");  
+    public static final Block hellGold = (new BlockHellOre(111, 141)).setHardness(3F).setResistance(5F).setStepSound(Block.soundStoneFootstep).setBlockName("oreGold");
+    public static final Block oreCopper = new BlockOre(112, 143).setHardness(3F).setResistance(5F).setStepSound(Block.soundStoneFootstep).setBlockName("oreCopper");
 }

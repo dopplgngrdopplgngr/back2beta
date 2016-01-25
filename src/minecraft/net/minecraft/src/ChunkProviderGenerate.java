@@ -474,14 +474,14 @@ public class ChunkProviderGenerate
             (new WorldGenMinable(B2BBlocks.oreOnyx.blockID, 10)).generate(worldObj, rand, xRand, yRand, zRand);
         }
         
-/*      for(int rare = 0; rare < 20; rare++)
+        for(int rare = 0; rare < 20; rare++)
         {
             int xRand = k + rand.nextInt(16);
             int yRand = rand.nextInt(16);
             int zRand = l + rand.nextInt(16);
             (new WorldGenMinable(B2BBlocks.oreCopper.blockID, 4)).generate(worldObj, rand, xRand, yRand, zRand);
         }
-        */
+
         
         d = 0.5D;
         int k4 = (int)((mobSpawnerNoise.func_806_a((double)k * d, (double)l * d) / 8D + rand.nextDouble() * 4D + 4D) / 3D);
