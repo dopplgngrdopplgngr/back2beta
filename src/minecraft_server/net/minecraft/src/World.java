@@ -1579,7 +1579,7 @@ public class World
         return (float)i / (float)j;
     }
 
-    public void func_28096_a(EntityPlayer entityplayer, int i, int j, int k, int l)
+    public void onBlockHit(EntityPlayer entityplayer, int i, int j, int k, int l)
     {
         if(l == 0)
         {

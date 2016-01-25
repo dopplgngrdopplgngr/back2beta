@@ -44,7 +44,7 @@ public class ItemInWorldManager
 
     public void func_324_a(int i, int j, int k, int l)
     {
-        thisWorld.func_28096_a(null, i, j, k, l);
+        thisWorld.onBlockHit(null, i, j, k, l);
         field_22055_d = field_22051_j;
         int i1 = thisWorld.getBlockId(i, j, k);
         if(i1 > 0)
