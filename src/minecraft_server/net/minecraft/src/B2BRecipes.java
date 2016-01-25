@@ -59,6 +59,7 @@ public void addSmeltingRecipes(FurnaceRecipes furnacerecipes)
     furnacerecipes.addSmelting(Block.stone.blockID, new ItemStack(B2BBlocks.decStone));
     furnacerecipes.addSmelting(B2BItems.porkRotten.shiftedIndex, new ItemStack(Item.porkCooked));
     furnacerecipes.addSmelting(B2BBlocks.hellGold.blockID, new ItemStack(Item.ingotGold));
+    furnacerecipes.addSmelting(B2BBlocks.oreCopper.blockID, new ItemStack(B2BItems.ingotCopper));
 }
 
 }

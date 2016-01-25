@@ -22,6 +22,8 @@ public class RecipesIngots
                 Block.blockDiamond, new ItemStack(Item.diamond, 9)
             }, new Object[] {
                 Block.blockLapis, new ItemStack(Item.dyePowder, 9, 4)
+            }, new Object[] {
+                B2BBlocks.blockCopper, new ItemStack(B2BItems.ingotCopper, 9)
             }
         });
     }
