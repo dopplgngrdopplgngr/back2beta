@@ -39,12 +39,6 @@ public class B2BBlocks {
        craftingmanager.addShapelessRecipe(new ItemStack(B2BItems.onyxStone, 4), new Object[] {
     		blockOnyx,
        });
-       craftingmanager.addRecipe(new ItemStack(blockCopper), new Object[] {
-    		"AAA", "AAA", "AAA" , Character.valueOf('A'), new ItemStack(B2BItems.ingotCopper)
-       });
-       craftingmanager.addShapelessRecipe(new ItemStack(B2BItems.ingotCopper, 9), new Object[] {
-    		blockCopper,
-       });
 	}
     /*
      * public static final Block blockName = new BlockBlockName(0, 0).setHardness(1.0F).setResistance(5F).setStepSound(Block.soundStoneFootstep).setBlockName("stringtobetranslated");
