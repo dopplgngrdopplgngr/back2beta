@@ -54,6 +54,11 @@ public class B2BItems {
     public static Item axeOnyx = (new ItemAxe(222, EnumToolMaterial.ONYX)).setIconCoord(3, 13).setItemName("hatchetOnyx");
     public static Item hoeOnyx = (new ItemHoe(223, EnumToolMaterial.ONYX)).setIconCoord(4, 13).setItemName("hoeOnyx");
     public static Item ingotCopper = (new Item(224)).setIconCoord(6, 15).setItemName("copperingot");
+    public static Item swordCopper = (new ItemSword(225, EnumToolMaterial.COPPER)).setIconCoord(0, 12).setItemName("swordCopper"); //ID=481
+    public static Item shovelCopper = (new ItemSpade(226, EnumToolMaterial.COPPER)).setIconCoord(1, 12).setItemName("shovelCopper"); //ID=482
+    public static Item pickaxeCopper = (new ItemPickaxe(227, EnumToolMaterial.COPPER)).setIconCoord(2, 12).setItemName("pickaxeCopper"); //ID=483
+    public static Item axeCopper = (new ItemAxe(228, EnumToolMaterial.COPPER)).setIconCoord(3, 12).setItemName("axeCopper"); //ID=484
+    public static Item hoeCopper = (new ItemHoe(229, EnumToolMaterial.COPPER)).setIconCoord(4, 12).setItemName("hoeCopper"); //ID=485
 }
 
 

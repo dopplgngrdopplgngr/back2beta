@@ -14,7 +14,8 @@ public enum EnumToolMaterial
     GOLD("GOLD", 4, 0, 32, 2F, 0),
 	BUTTERKNIFE("BUTTERKNIFE", 5, 3, 9000, 9000F, 9000),
 	OBSIDIAN("OBSIDIAN", 6, 3, 59, 11F, 6),
-	ONYX("ONYX", 7, 3, 550, 7F, 2);
+	ONYX("ONYX", 7, 3, 550, 7F, 2),
+	COPPER("COPPER", 8, 2, 230, 5F, 2);
 /*
     public static EnumToolMaterial[] values()
     {
