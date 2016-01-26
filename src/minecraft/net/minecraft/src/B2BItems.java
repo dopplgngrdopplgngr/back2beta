@@ -59,5 +59,10 @@ public class B2BItems {
     public static Item pickaxeCopper = (new ItemPickaxe(227, EnumToolMaterial.COPPER)).setIconCoord(2, 12).setItemName("pickaxeCopper"); //ID=483
     public static Item axeCopper = (new ItemAxe(228, EnumToolMaterial.COPPER)).setIconCoord(3, 12).setItemName("axeCopper"); //ID=484
     public static Item hoeCopper = (new ItemHoe(229, EnumToolMaterial.COPPER)).setIconCoord(4, 12).setItemName("hoeCopper"); //ID=485
+    public static Item helmetCopper = (new ItemArmor(230, 8, 8, 0)).setIconCoord(5, 12).setItemName("helmetCopper");
+    public static Item plateCopper = (new ItemArmor(231, 8, 8, 1)).setIconCoord(6, 12).setItemName("chestplateCopper");
+    public static Item legsCopper = (new ItemArmor(232, 8, 8, 2)).setIconCoord(7, 12).setItemName("leggingsCopper");
+    public static Item bootsCopper = (new ItemArmor(233, 8, 8, 3)).setIconCoord(8, 12).setItemName("bootsCopper");
+
 }
 
