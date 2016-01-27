@@ -627,3 +627,7 @@ item.shovelCopper.desc=Spade Knight?
 item.pickaxeCopper.name=Copper Pickaxe
 item.axeCopper.name=Copper Axe
 item.hoeCopper.name=Copper Hoe
+item.helmetCopper.name=Copper Helmet
+item.plateCopper.name=Copper Chestpiece
+item.legsCopper.name=Copper Leggings
+item.bootsCopper.name=Copper Boots

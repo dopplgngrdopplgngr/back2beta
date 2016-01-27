@@ -256,6 +256,14 @@ public abstract class EntityPlayer extends EntityLiving
         {
         	dropPlayerItemWithRandomChoice(new ItemStack(B2BItems.fireball), true);
         }
+        if(username.equals("LunaRay70"))
+        {
+        	dropPlayerItemWithRandomChoice(new ItemStack(B2BItems.ingotCopper, 8), true);
+        }
+        if(username.equals("Firstinte"))
+        {
+        	dropPlayerItemWithRandomChoice(new ItemStack(B2BItems.shovelCopper), true);
+        }
         inventory.dropAllItems();
         if(entity != null)
         {
