@@ -63,6 +63,7 @@ public class B2BItems {
     public static Item plateCopper = (new ItemArmor(231, 8, 8, 1)).setIconCoord(6, 12).setItemName("chestplateCopper");
     public static Item legsCopper = (new ItemArmor(232, 8, 8, 2)).setIconCoord(7, 12).setItemName("leggingsCopper");
     public static Item bootsCopper = (new ItemArmor(233, 8, 8, 3)).setIconCoord(8, 12).setItemName("bootsCopper");
+    public static Item ingotOsmium = (new Item(234)).setIconCoord(5, 15).setItemName("ingotOsmium");
 }
 
 

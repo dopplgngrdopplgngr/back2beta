@@ -15,7 +15,8 @@ public enum EnumToolMaterial
 	BUTTERKNIFE("BUTTERKNIFE", 5, 3, 9000, 9000F, 9000),
 	OBSIDIAN("OBSIDIAN", 6, 3, 59, 11F, 6),
 	ONYX("ONYX", 7, 3, 550, 7F, 2),
-	COPPER("COPPER", 8, 2, 230, 5F, 2);
+	COPPER("COPPER", 8, 2, 230, 5F, 2),
+	OSMIUM("OSMIUM", 9, 3, 2633, 17F, 7);
 /*
     public static EnumToolMaterial[] values()
     {
