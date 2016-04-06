@@ -16,7 +16,8 @@ public enum EnumToolMaterial
 	OBSIDIAN("OBSIDIAN", 6, 3, 59, 11F, 6),
 	ONYX("ONYX", 7, 3, 550, 7F, 2),
 	COPPER("COPPER", 8, 2, 230, 5F, 2),
-	OSMIUM("OSMIUM", 9, 3, 2633, 17F, 7);
+	OSMIUM("OSMIUM", 9, 3, 2633, 17F, 7),
+	MEME("MEME", 10, 3, 65536, 90F, 9000);
 /*
     public static EnumToolMaterial[] values()
     {

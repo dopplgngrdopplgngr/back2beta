@@ -59,11 +59,18 @@ public class B2BItems {
     public static Item pickaxeCopper = (new ItemPickaxe(227, EnumToolMaterial.COPPER)).setIconCoord(2, 12).setItemName("pickaxeCopper"); //ID=483
     public static Item axeCopper = (new ItemAxe(228, EnumToolMaterial.COPPER)).setIconCoord(3, 12).setItemName("axeCopper"); //ID=484
     public static Item hoeCopper = (new ItemHoe(229, EnumToolMaterial.COPPER)).setIconCoord(4, 12).setItemName("hoeCopper"); //ID=485
-    public static Item helmetCopper = (new ItemArmor(230, 8, 8, 0)).setIconCoord(5, 12).setItemName("helmetCopper");
-    public static Item plateCopper = (new ItemArmor(231, 8, 8, 1)).setIconCoord(6, 12).setItemName("chestplateCopper");
-    public static Item legsCopper = (new ItemArmor(232, 8, 8, 2)).setIconCoord(7, 12).setItemName("leggingsCopper");
-    public static Item bootsCopper = (new ItemArmor(233, 8, 8, 3)).setIconCoord(8, 12).setItemName("bootsCopper");
-    public static Item ingotOsmium = (new Item(234)).setIconCoord(5, 15).setItemName("ingotOsmium");
+    public static Item helmetCopper = (new ItemArmor(230, 8, 8, 0)).setIconCoord(8, 12).setItemName("helmetCopper"); //ID=486
+    public static Item plateCopper = (new ItemArmor(231, 8, 8, 1)).setIconCoord(7, 12).setItemName("chestplateCopper"); //ID=487
+    public static Item legsCopper = (new ItemArmor(232, 8, 8, 2)).setIconCoord(6, 12).setItemName("leggingsCopper"); //ID=488
+    public static Item bootsCopper = (new ItemArmor(233, 8, 8, 3)).setIconCoord(5, 12).setItemName("bootsCopper"); //ID=489
+    public static Item ingotOsmium = (new Item(234)).setIconCoord(5, 15).setItemName("ingotOsmium"); //ID=490
+    public static Item helmetOsmium = (new ItemArmor(235, 8, 8, 0)).setIconCoord(8, 12).setItemName("helmetOsmium"); //ID=491
+    public static Item plateOsmium = (new ItemArmor(236, 8, 8, 1)).setIconCoord(7, 12).setItemName("chestplateOsmium"); //ID=492
+    public static Item legsOsmium = (new ItemArmor(237, 8, 8, 2)).setIconCoord(6, 12).setItemName("leggingsOsmium"); //ID=493
+    public static Item bootsOsmium = (new ItemArmor(238, 8, 8, 3)).setIconCoord(5, 12).setItemName("bootsOsmium"); //ID=494
+    public static Item dellPrecision = (new ItemSword(239, EnumToolMaterial.BUTTERKNIFE)).setIconCoord(0, 13).setItemName("VeryHeavy"); //ID=495
+    public static Item nokia3310 = (new ItemSword(240, EnumToolMaterial.BUTTERKNIFE)).setIconCoord(0, 13).setItemName("Indestructable"); //ID=496
+    public static Item northKorea = (new Item(241)).setIconCoord(1, 1).setItemName("Communist"); //ID=497
 }
 
 
