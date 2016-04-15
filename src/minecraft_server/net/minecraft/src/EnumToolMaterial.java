@@ -17,7 +17,9 @@ public enum EnumToolMaterial
 	ONYX("ONYX", 7, 3, 550, 7F, 2),
 	COPPER("COPPER", 8, 2, 230, 5F, 2),
 	OSMIUM("OSMIUM", 9, 3, 2633, 17F, 7),
-	MEME("MEME", 10, 3, 65536, 90F, 9000);
+	MEME("MEME", 10, 3, 65536, 90F, 9000),
+	URANIUM("URANIUM", 11, 2, 666, 7F, 2),
+	LAPIS("LAPIS", 12, 1, 386, 3.5F, 1);
 /*
     public static EnumToolMaterial[] values()
     {
