@@ -71,5 +71,6 @@ public class B2BItems {
     public static Item dellPrecision = (new ItemSword(239, EnumToolMaterial.BUTTERKNIFE)).setIconCoord(0, 13).setItemName("VeryHeavy"); //ID=495
     public static Item nokia3310 = (new ItemSword(240, EnumToolMaterial.BUTTERKNIFE)).setIconCoord(0, 13).setItemName("Indestructable"); //ID=496
     public static Item northKorea = (new Item(241)).setIconCoord(1, 1).setItemName("Communist"); //ID=497
+    public static Item ingotUranium = (new Item(242)).setIconCoord(5, 15).setItemName("ingotUranium"); //ID=498
 }
 
