@@ -65,5 +65,10 @@ public class B2BBlocks {
     public static final Block oreOsmium = new BlockOre(114, 175).setHardness(3F).setResistance(5F).setStepSound(Block.soundStoneFootstep).setBlockName("oreOsmium");
     public static final Block blockOsmium = new BlockOreStorage(115, 176).setHardness(5F).setResistance(5F).setStepSound(Block.soundMetalFootstep).setBlockName("blockOsmium");
     public static final Block oreUranium = new BlockOre(116, 177).setHardness(3F).setResistance(5F).setStepSound(Block.soundStoneFootstep).setBlockName("oreUranium");
+    public static final Block blockUranium = new BlockOreStorage(117, 170).setHardness(3.5F).setResistance(4.5F).setStepSound(Block.soundMetalFootstep).setBlockName("blockUranium");
+    public static final Block oreArdum = new BlockOre(118, 167).setHardness(3F).setResistance(5F).setStepSound(Block.soundStoneFootstep).setBlockName("oreArdum");
+    public static final Block blockArdum = new BlockOreStorage(119, 166).setHardness(3.5F).setResistance(4.5F).setStepSound(Block.soundMetalFootstep).setBlockName("blockArdum");    
+    public static final Block orePyrite = new BlockOre(120, 169).setHardness(3F).setResistance(5F).setStepSound(Block.soundStoneFootstep).setBlockName("orePyrite");
+    public static final Block blockUnrefinedPyrite = new BlockOreStorage(121, 168).setHardness(3.5F).setResistance(4.5F).setStepSound(Block.soundStoneFootstep).setBlockName("blockUnrefinedPyrite");
 }
 
