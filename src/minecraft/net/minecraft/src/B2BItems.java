@@ -76,19 +76,29 @@ public class B2BItems {
     public static Item plateUranium = (new ItemArmor(244, 8, 8, 1)).setIconCoord(7, 13).setItemName("chestplateUranium"); //ID=500
     public static Item legsUranium = (new ItemArmor(245, 8, 8, 2)).setIconCoord(6, 13).setItemName("leggingsUranium"); //ID=501
     public static Item bootsUranium = (new ItemArmor(246, 8, 8, 3)).setIconCoord(5, 13).setItemName("bootsUranium"); //ID=502
-    public static Item swordOsmium = (new ItemSword(247, EnumToolMaterial.COPPER)).setIconCoord(0, 11).setItemName("swordCopper"); //ID=503
-    public static Item shovelOsmium = (new ItemSpade(248, EnumToolMaterial.COPPER)).setIconCoord(1, 11).setItemName("shovelCopper"); //ID=504
-    public static Item pickaxeOsmium = (new ItemPickaxe(249, EnumToolMaterial.COPPER)).setIconCoord(2, 11).setItemName("pickaxeCopper"); //ID=505
-    public static Item axeOsmium = (new ItemAxe(250, EnumToolMaterial.COPPER)).setIconCoord(3, 11).setItemName("axeCopper"); //ID=506
-    public static Item hoeOsmium = (new ItemHoe(251, EnumToolMaterial.COPPER)).setIconCoord(4, 11).setItemName("hoeCopper"); //ID=507
-    public static Item swordUranium = (new ItemSword(252, EnumToolMaterial.COPPER)).setIconCoord(0, 10).setItemName("swordCopper"); //ID=508
-    public static Item shovelUranium = (new ItemSpade(253, EnumToolMaterial.COPPER)).setIconCoord(1, 10).setItemName("shovelCopper"); //ID=509
-    public static Item pickaxeUranium = (new ItemPickaxe(254, EnumToolMaterial.COPPER)).setIconCoord(2, 10).setItemName("pickaxeCopper"); //ID=510
-    public static Item axeUranium = (new ItemAxe(255, EnumToolMaterial.COPPER)).setIconCoord(3, 10).setItemName("axeCopper"); //ID=511
-    public static Item hoeUranium = (new ItemHoe(256, EnumToolMaterial.COPPER)).setIconCoord(4, 10).setItemName("hoeCopper"); //ID=512
+    public static Item swordOsmium = (new ItemSword(247, EnumToolMaterial.OSMIUM)).setIconCoord(0, 11).setItemName("swordCopper"); //ID=503
+    public static Item shovelOsmium = (new ItemSpade(248, EnumToolMaterial.OSMIUM)).setIconCoord(1, 11).setItemName("shovelCopper"); //ID=504
+    public static Item pickaxeOsmium = (new ItemPickaxe(249, EnumToolMaterial.OSMIUM)).setIconCoord(2, 11).setItemName("pickaxeCopper"); //ID=505
+    public static Item axeOsmium = (new ItemAxe(250, EnumToolMaterial.OSMIUM)).setIconCoord(3, 11).setItemName("axeCopper"); //ID=506
+    public static Item hoeOsmium = (new ItemHoe(251, EnumToolMaterial.OSMIUM)).setIconCoord(4, 11).setItemName("hoeCopper"); //ID=507
+    public static Item swordUranium = (new ItemSword(252, EnumToolMaterial.URANIUM)).setIconCoord(0, 10).setItemName("swordCopper"); //ID=508
+    public static Item shovelUranium = (new ItemSpade(253, EnumToolMaterial.URANIUM)).setIconCoord(1, 10).setItemName("shovelCopper"); //ID=509
+    public static Item pickaxeUranium = (new ItemPickaxe(254, EnumToolMaterial.URANIUM)).setIconCoord(2, 10).setItemName("pickaxeCopper"); //ID=510
+    public static Item axeUranium = (new ItemAxe(255, EnumToolMaterial.URANIUM)).setIconCoord(3, 10).setItemName("axeCopper"); //ID=511
+    public static Item hoeUranium = (new ItemHoe(256, EnumToolMaterial.URANIUM)).setIconCoord(4, 10).setItemName("hoeCopper"); //ID=512
     public static Item unrefinedPyrite = (new Item(257)).setIconCoord(15, 13).setItemName("pyriteItem"); //ID=513
     public static Item obsidianRod = (new Item(258)).setIconCoord(15, 12).setItemName("osmiumRod"); //ID=514
     public static Item refinedPyrite = (new Item(259)).setIconCoord(15, 13).setItemName("pyrite"); //ID=515
     public static Item ingotArdum = (new Item(260)).setIconCoord(3, 15).setItemName("ingotArdum"); //ID=516
+    public static Item swordArdum = (new ItemSword(261, EnumToolMaterial.ARDUM)).setIconCoord(0, 10).setItemName("swordArdum"); //ID=517
+    public static Item shovelArdum = (new ItemSpade(262, EnumToolMaterial.ARDUM)).setIconCoord(1, 10).setItemName("shovelArdum"); //ID=518
+    public static Item pickaxeArdum = (new ItemPickaxe(263, EnumToolMaterial.ARDUM)).setIconCoord(2, 10).setItemName("pickaxeArdum"); //ID=519
+    public static Item axeArdum = (new ItemAxe(264, EnumToolMaterial.ARDUM)).setIconCoord(3, 10).setItemName("axeArdum"); //ID=520
+    public static Item hoeArdum = (new ItemHoe(265, EnumToolMaterial.ARDUM)).setIconCoord(4, 10).setItemName("hoeArdum"); //ID=521
+    public static Item helmetArdum = (new ItemArmor(266, 8, 8, 0)).setIconCoord(8, 13).setItemName("helmetArdum"); //ID=522
+    public static Item plateArdum = (new ItemArmor(267, 8, 8, 1)).setIconCoord(7, 13).setItemName("chestplateArdum"); //ID=523
+    public static Item legsArdum = (new ItemArmor(268, 8, 8, 2)).setIconCoord(6, 13).setItemName("leggingsArdum"); //ID=524
+    public static Item bootsArdum = (new ItemArmor(269, 8, 8, 3)).setIconCoord(5, 13).setItemName("bootsArdum"); //ID=525
 }
 
+// O Hai! Sometimes, I like eating a lot of chips

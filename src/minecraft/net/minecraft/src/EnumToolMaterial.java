@@ -13,13 +13,14 @@ public enum EnumToolMaterial
     EMERALD("EMERALD", 3, 3, 1561, 8F, 3),
     GOLD("GOLD", 4, 0, 32, 2F, 0),
 	BUTTERKNIFE("BUTTERKNIFE", 5, 3, 9000, 9000F, 9000),
-	OBSIDIAN("OBSIDIAN", 6, 3, 59, 11F, 6),
+	OBSIDIAN("OBSIDIAN", 6, 3, 59, 11F, 3),
 	ONYX("ONYX", 7, 3, 550, 7F, 2),
 	COPPER("COPPER", 8, 2, 230, 5F, 2),
-	OSMIUM("OSMIUM", 9, 3, 2633, 17F, 7),
+	OSMIUM("OSMIUM", 9, 4, 2633, 17F, 4),
 	MEME("MEME", 10, 3, 65536, 90F, 9000),
 	URANIUM("URANIUM", 11, 2, 666, 7F, 2),
-	LAPIS("LAPIS", 12, 1, 386, 3.5F, 1);
+	LAPIS("LAPIS", 12, 1, 386, 3.5F, 1),
+	ARDUM("ARDUM", 13, 3, 4096, 18F, 4);
 /*
     public static EnumToolMaterial[] values()
     {
